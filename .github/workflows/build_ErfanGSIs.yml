@@ -3,10 +3,10 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://pilotfiber.dl.sourceforge.net/project/NusantaraProject//jasmine_sprout/Nusantara_v1.0-jasmine_sprout-14082020-OFFICIAL-0602.zip
+  ROM_URL: https://drive.iyoroy.cn/api/raw/?path=/Akihabara/Akihabara-1.0-20230201-UNOFFICIAL-coral.zip
   ROM_NAME: Generic:Nusantara_v1
-  ZIP_NAME: Nusantara_v1
-  TZ: America/Sao_Paulo
+  ZIP_NAME: Akihabara_v1
+  TZ: Asia/Shanghai
   MIR: gof
 jobs:
   build:
